@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+*This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
+
 ## Development
 The SyncUp app is a dynamic web application built with [React](https://react.dev/) and Firebase.
 
@@ -15,8 +17,6 @@ The SyncUp app is a dynamic web application built with [React](https://react.dev
 
 **Package Management:**
 npm
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
