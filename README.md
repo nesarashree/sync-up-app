@@ -10,6 +10,6 @@ During our pilot, we found that purely one-on-one matches often felt too high-st
 ### Watch the demo
 <div align="center">
   <a href="https://drive.google.com/file/d/1ckzARhFVm-Y4sLhnfFFRLH2NFjnR2l_b/view?usp=sharing" target="_blank">
-    <img src="images/logo.png" alt="Watch the demo" width="500"/>
+    <img src="images/logo2.png" alt="Watch the demo" width="500"/>
   </a>
 </div>
