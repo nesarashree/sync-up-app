@@ -13,14 +13,9 @@ Overview of SyncUp's key features, including the onboarding/profile creation pro
   </a>
 </div>
 
-## Paper — Sociotechnical Design 
-Examining the sociotechnical concepts driving SyncUp, our final paper discusses how our design choices facilitate meaningful academic connections. We analyze pilot data demonstrating how group features lowered barriers to meetups and increased engagement. We also outline future directions for scaling, intelligent matching, and privacy considerations.
-
-https://docs.google.com/document/d/16cV8kAuYDsp79qpN7NfNefhikznAIS7AkAAGl79JkBo/edit?usp=sharing
-
 ## Instructions for Use
 
-Follow these steps to get the SyncUp app running locally on your machine for development and testing. Make sure you have *Node.js* (LTS recommended) and *npm* installed.
+The SyncUp app is a dynamic web application built with [React](https://react.dev/) and Firebase. Follow these steps to get the SyncUp app running locally on your machine for development and testing. Make sure you have *Node.js* (LTS recommended) and *npm* installed.
 
 1. Open your terminal
 2. Clone the repository and navigate into the React app by running the following commands:
@@ -33,3 +28,8 @@ Follow these steps to get the SyncUp app running locally on your machine for dev
 5. Open your web browser and go to `http://localhost:3000`
 
 You should now see the SyncUp app running locally!
+
+## Paper — Sociotechnical Design 
+Examining the sociotechnical concepts driving SyncUp, our final paper discusses how our design choices facilitate meaningful academic connections. We analyze pilot data demonstrating how group features lowered barriers to meetups and increased engagement. We also outline future directions for scaling, intelligent matching, and privacy considerations.
+
+https://docs.google.com/document/d/16cV8kAuYDsp79qpN7NfNefhikznAIS7AkAAGl79JkBo/edit?usp=sharing
