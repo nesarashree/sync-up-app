@@ -18,22 +18,6 @@ Examining the sociotechnical concepts driving SyncUp, our final paper discusses 
 
 https://docs.google.com/document/d/16cV8kAuYDsp79qpN7NfNefhikznAIS7AkAAGl79JkBo/edit?usp=sharing
 
-## Development
-The SyncUp app is a dynamic web application built with [React](https://react.dev/) and Firebase.
-
-**Frontend:**
-* React.js - JavaScript library for building user interfaces.
-* Create React App - For bootstrapping the React project.
-* HTML5, CSS3, JavaScript (ES6+)
-
-**Backend & Database:**
-* Firebase Authentication - for user authentication.
-* Firebase Firestore - NoSQL cloud database for data storage.
-* Firebase Hosting - For deploying the web application.
-
-**Package Management:**
-npm
-
 ## Instructions for Use
 
 Follow these steps to get the SyncUp app running locally on your machine for development and testing. Make sure you have *Node.js* (LTS recommended) and *npm* installed.
@@ -49,8 +33,3 @@ Follow these steps to get the SyncUp app running locally on your machine for dev
 5. Open your web browser and go to `http://localhost:3000`
 
 You should now see the SyncUp app running locally!
-
-**Notes**
-- Before running the app, make sure your Firebase configuration is set up properly in the project (usually in a `.env` file or config file).
-- To create a production build, run: `npm run build`
-- To deploy the app to Firebase Hosting (if Firebase CLI is configured): `firebase deploy`
