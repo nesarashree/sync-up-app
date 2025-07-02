@@ -8,6 +8,7 @@ Our target audience is students seeking structure and motivation, particularly a
 During our pilot, we found that purely one-on-one matches often felt too high-stakes for new users. By introducing a simple group-study feature, we unlocked significantly higher engagement and follow-through on real-world meetups. This showed that facilitating low-pressure, socially reinforced connections can make academic accountability both more approachable and more effective.
 
 ### Watch the demo
+Overview of SyncUp's key features, including the onboarding/profile creation process, swipe-to-match feature, app screens, local DMs and group chat dropdown, calendar integration, and more.
 <div align="center">
   <a href="https://drive.google.com/file/d/1ckzARhFVm-Y4sLhnfFFRLH2NFjnR2l_b/view?usp=sharing" target="_blank">
     <img src="images/logo2.png" alt="Watch the demo" width="500"/>
