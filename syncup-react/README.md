@@ -1,5 +1,21 @@
 # Getting Started with Create React App
 
+## Development
+The SyncUp app is a dynamic web application built with [React](https://react.dev/) and Firebase.
+
+**Frontend:**
+* React.js - JavaScript library for building user interfaces.
+* Create React App - For bootstrapping the React project.
+* HTML5, CSS3, JavaScript (ES6+)
+
+**Backend & Database:**
+* Firebase Authentication - for user authentication.
+* Firebase Firestore - NoSQL cloud database for data storage.
+* Firebase Hosting - For deploying the web application.
+
+**Package Management:**
+npm
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
