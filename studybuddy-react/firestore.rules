@@ -1,0 +1,39 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Base rules for authenticated users
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    // Check if the user is accessing their own data
+    function isUserOwned(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // User profiles - allow users to read any profile, but only write to their own
+    match /users/{userId} {
+      allow read: if isAuthenticated();
+      allow write: if isUserOwned(userId);
+    }
+    
+    // Swipes collection - users can only read/write their own swipes
+    match /swipes/{swipeId} {
+      allow read, write: if isAuthenticated() && 
+        (resource == null || resource.data.userId == request.auth.uid);
+    }
+    
+    // Matches collection - users can read/write only if they are part of the match
+    match /matches/{matchId} {
+      allow read, write: if isAuthenticated() && 
+        (resource == null || 
+         resource.data.users[request.auth.uid] == true);
+    }
+    
+    // Default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

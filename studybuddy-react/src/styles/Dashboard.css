@@ -1,0 +1,172 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.user-stats {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.user-stats h2 {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+.match-card {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+}
+
+.profile-image {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.profile-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  color: white;
+  padding: 15px;
+}
+
+.profile-details h3 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.profile-details p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.profile-bio {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.match-details {
+  padding: 15px;
+}
+
+.match-section {
+  margin-bottom: 15px;
+}
+
+.match-section h4 {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.tag {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.85rem;
+}
+
+.action-buttons {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.action-button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.reject {
+  background-color: #f8f8f8;
+  color: #777;
+}
+
+.accept {
+  background-color: #e75480;
+  color: white;
+}
+
+.reject:hover {
+  background-color: #f0f0f0;
+}
+
+.accept:hover {
+  background-color: #d64d76;
+}
+
+.loading-container, 
+.error-container,
+.no-matches-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 400px;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 4px solid #e75480;
+  animation: spin 1s linear infinite;
+  margin: 20px 0;
+}
+
+.retry-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e75480;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .dashboard-container {
+    padding: 15px;
+  }
+}

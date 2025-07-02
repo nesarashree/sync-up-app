@@ -1,0 +1,36 @@
+.home-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f0f4f8;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .get-started-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .get-started-button:hover {
+    background-color: #1f6391;
+  }
+  

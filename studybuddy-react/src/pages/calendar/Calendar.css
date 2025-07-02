@@ -1,0 +1,287 @@
+/* Calendar Page Layout */
+.calendar-page {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Calendar Navbar */
+.calendar-navbar {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+.nav-logo {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-link {
+  color: #495057;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #0d6efd;
+}
+
+.today-badge {
+  padding: 8px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.today-badge:hover {
+  transform: scale(1.05);
+}
+
+/* Calendar Container */
+.calendar-container {
+  padding: 2rem;
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Calendar Header */
+.calendar-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.calendar-header h1 {
+  color: #212529;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.calendar-date {
+  color: #0d6efd;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.calendar-subheading {
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+}
+
+/* Calendar Loading */
+.calendar-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  min-height: 400px;
+}
+
+.calendar-loading p {
+  margin-top: 15px;
+  color: #6c757d;
+}
+
+/* Calendar Wrapper */
+.calendar-wrapper {
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 2rem;
+}
+
+/* BigCalendar Styling */
+.rbc-calendar {
+  font-family: 'Poppins', sans-serif;
+}
+
+.rbc-event {
+  background-color: #0d6efd;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.rbc-event:hover {
+  transform: scale(1.02);
+}
+
+.rbc-event-content {
+  font-size: 0.85rem;
+  padding: 4px 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.rbc-today {
+  background-color: rgba(13, 110, 253, 0.1);
+}
+
+/* Toolbar Styling */
+.rbc-toolbar {
+  margin-bottom: 20px;
+}
+
+.rbc-toolbar button {
+  color: #495057;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 6px 12px;
+  transition: all 0.2s ease;
+}
+
+.rbc-toolbar button:hover {
+  background-color: #e9ecef;
+}
+
+.rbc-toolbar button.rbc-active {
+  background-color: #0d6efd;
+  color: #fff;
+  border-color: #0d6efd;
+}
+
+.rbc-toolbar-label {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+/* Calendar Tips */
+.calendar-tips {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  margin-top: 30px;
+}
+
+.calendar-tips h4 {
+  color: #212529;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.calendar-tips ul {
+  padding-left: 20px;
+}
+
+.calendar-tips li {
+  margin-bottom: 8px;
+  color: #495057;
+}
+
+/* Event Modal Styling */
+.modal-content {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 1.2rem 1.5rem;
+  background-color: #f8f9fa;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.modal-title {
+  color: #212529;
+  font-weight: 600;
+}
+
+.modal-body {
+  padding: 1.5rem;
+}
+
+.modal-footer {
+  border-top: 1px solid #f0f0f0;
+  padding: 1.2rem 1.5rem;
+  background-color: #f8f9fa;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* Form Controls */
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+  transform: translateY(-1px);
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  transition: all 0.2s ease;
+}
+
+.btn-danger:hover {
+  background-color: #bb2d3b;
+  border-color: #b02a37;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  transition: all 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #5c636a;
+  border-color: #565e64;
+  transform: translateY(-1px);
+}
+
+/* Add spacing between buttons */
+.modal-footer > .btn {
+  margin-left: 0.7rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .calendar-container {
+    padding: 1rem;
+  }
+  
+  .calendar-header h1 {
+    font-size: 1.8rem;
+  }
+  
+  .rbc-toolbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .rbc-toolbar-label {
+    margin: 10px 0;
+  }
+  
+  .navbar-buttons {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+  }
+}
